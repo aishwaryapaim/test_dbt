@@ -1,0 +1,2 @@
+select distinct Location_Level,Location,Province,Island,Time_Zone,Special_Status,Total_Regencies,
+Total_Cities,Total_Districts,Total_Urban_Villages,AREA_KM_2_ as area,Population,Population_Density,CAST(Longitude as VARCHAR) as Longitude,CAST(Latitude as VARCHAR) as Latitude
